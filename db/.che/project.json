@@ -1,0 +1,17 @@
+{
+	"type": "sap.hdb",
+	"builders": {
+		"default": "hdi-builder",
+		"configs": {}
+	},
+	"runners": {
+		"configs": {}
+	},
+	"attributes": {
+		"mta_module_parent": ["/HANA_APP"],
+		"sap.watt.common.setting": [
+			"{\"generation\":[{\"templateId\":\"hanatemplates.hanadbproject\",\"templateVersion\":\"1.0.0\",\"dateTimeStamp\":\"Tue, 14 Aug 2018 10:24:08 GMT\"}]}"
+		]
+	},
+	"mixinTypes": ["mtamodule"]
+}
